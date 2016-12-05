@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">4dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+
+    <!-- Topic list dimens -->
+    <dimen name="topicLinePadding">2dp</dimen>
+
+    <!-- Topic dimens -->
+    <dimen name="topicAva">10dp</dimen>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/topicLinePadding" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/topicName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            style="@style/TextViewName">
+        </TextView>
+
+        <TextView
+            android:id="@+id/topicBlog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blog">
+        </TextView>
+
+        <TextView
+            android:id="@+id/topicDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desription">
+        </TextView>
+
+    </LinearLayout>
+</LinearLayout>
